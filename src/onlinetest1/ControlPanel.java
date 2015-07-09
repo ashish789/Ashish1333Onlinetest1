@@ -6,12 +6,14 @@ import java.util.List;
 public class ControlPanel {
 	
 	String name;
-	List<Button> nb = new ArrayList<Button>();
+	List<Button> button = new ArrayList<Button>();
 	
 	public ControlPanel(String n){
 		this.name=n;
 		
 	}
+	
+	
 	
 
 }

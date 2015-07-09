@@ -5,8 +5,10 @@ import java.util.List;
 
 public class BallotPapperPanel extends ControlPanel {
    
-	List<Button> voteButtons = new ArrayList<Button>();
+	List<VoteButton> voteButtons = new ArrayList<VoteButton>();
 	List<Candidate> candidates = new ArrayList<Candidate>();
+	BallotUnit bal;
+	
 	
 	public BallotPapperPanel(String n) {
 		super(n);

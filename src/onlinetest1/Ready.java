@@ -1,11 +1,14 @@
 package onlinetest1;
 
 public class Ready extends State{
-
+ 
+	
+	
 	
      public Ready(){
 		
 		this.name="Ready";
+		
 		
 	}
      
@@ -13,8 +16,8 @@ public class Ready extends State{
 	void Switch(BallotUnit bu) {
 		// TODO Auto-generated method stub
 		
-	  //State new2=new Busy();
-	  //bu.setStatus(new2);
+	  State new2=new Busy();
+	  bu.setStatus(new2);
 		
 	}
 

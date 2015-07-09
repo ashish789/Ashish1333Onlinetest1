@@ -12,8 +12,8 @@ public class Idle extends State {
 	@Override
 	void Switch(BallotUnit bu) {
 		// TODO Auto-generated method stub
-		  //State new2=new Ready();
-		  //bu.setStatus(new2);
+		  State new2=new Ready();
+		  bu.setStatus(new2);
 			
 		
 	}
